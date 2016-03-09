@@ -2,7 +2,6 @@
 require 'db.php';
 
 $cron=mysqli_query($conn,"SELECT uname FROM active WHERE time<DATE_SUB(NOW(), INTERVAL 20 SECOND);");
-//echo "dsjksgdk";
 if($cron){
 	echo "heehheh";
 	
@@ -15,7 +14,7 @@ if($cron){
 
 }
 else
-{	//echo "ssdgj";
+{	
 	echo mysqli_error($conn);
 }
 mysqli_close($conn);
