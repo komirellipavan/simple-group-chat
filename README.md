@@ -1,3 +1,3 @@
 # simple-group-chat
 
-<strong>DEMO</strong>
+<strong><a href=http://groupchattest.co.nf/>DEMO</a></strong>
