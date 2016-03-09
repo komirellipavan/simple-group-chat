@@ -19,7 +19,7 @@ $(document).ready(function () {
                         data:"action=showcomment",
                         success:function(data){
                              $("#showmsg").html(data);
-							 //console.log("hello");
+							 
 							 
                         }
                       });
@@ -28,7 +28,7 @@ $(document).ready(function () {
                         url:"post.php",
                         data:"action=active",
                         success:function(data){
-							 console.log("active");
+							 //console.log("active");
                         }
                       });
 					   $.ajax({
@@ -37,7 +37,7 @@ $(document).ready(function () {
                         data:"action=showusers",
                         success:function(data){
                              $("#online").html(data);
-							 //console.log("hello");
+							 
 							 
                         }
                       });
