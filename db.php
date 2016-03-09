@@ -12,7 +12,7 @@ if(!$conn){
 	echo mysqli_error($conn);
 }
 
-//else{echo "sucess";}
+
 
 
 ?>
