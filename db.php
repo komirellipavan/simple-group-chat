@@ -1,11 +1,11 @@
 <?php
 
 
-$host = 'fdb14.biz.nf';
-$db_username = "2076175_grpchat";
-$db_password = "p@^@n123";
-$dbname = "2076175_grpchat";
-$dbport = '3306';
+$host = 'localhost';
+$db_username = "yourusername";
+$db_password = "yourpassword";
+$dbname = "yourdbname";
+$dbport = '3306';//database port number
 $conn = mysqli_connect($host,$db_username,$db_password,$dbname,$port);
 
 if(!$conn){
