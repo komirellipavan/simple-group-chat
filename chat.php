@@ -120,7 +120,6 @@ function myFunction() {
 }
 </script>
 
-</script>
 
 </body>
 
